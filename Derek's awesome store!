@@ -1,0 +1,18 @@
+CREATE TABLE Dereks_awesome_store (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, quantity INTEGER, margin INTEGER, aisle INTEGER);
+INSERT INTO Dereks_awesome_store VALUES (1, 'blue shirt', 5, 3, 2, 1);
+INSERT INTO Dereks_awesome_store VALUES (2, 'grey shirt', 4, 6, 3, 5);
+INSERT INTO Dereks_awesome_store VALUES (3, 'green shirt', 1, 5, 7, 8);
+INSERT INTO Dereks_awesome_store VALUES (4, 'orange
+shirt', 5, 3, 2, 1);
+INSERT INTO Dereks_awesome_store VALUES (5, 'blue jeans', 67, 35, 26, 12);
+INSERT INTO Dereks_awesome_store VALUES (6, 'black jeans', 51, 33, 42, 21);
+INSERT INTO Dereks_awesome_store VALUES (7, 'blue vest', 1, 23, 22, 21);
+INSERT INTO Dereks_awesome_store VALUES (8, 'black sweater', 7, 73, 72, 71);
+INSERT INTO Dereks_awesome_store VALUES (9, 'blue shirt', 5, 3, 2, 1);
+INSERT INTO Dereks_awesome_store VALUES (10, 'beige shirt', 51, 13, 12, 11);
+INSERT INTO Dereks_awesome_store VALUES (11, 'pink shirt', 50, 30, 20, 10);
+INSERT INTO Dereks_awesome_store VALUES (12, 'blue socks', 22, 5, 0, 2);
+INSERT INTO Dereks_awesome_store VALUES (13, 'highlighter gree shirt', 9, 7, 4, 4);
+INSERT INTO Dereks_awesome_store VALUES (14, 'cat shirt', 146, 5, 475, 1);
+INSERT INTO Dereks_awesome_store VALUES (15, 'joggers', 5, 3, 2, 1);
+SELECT SUM (quantity) FROM Dereks_awesome_store;
